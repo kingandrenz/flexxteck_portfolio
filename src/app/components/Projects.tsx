@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Projects() {
   return (
     <section id="projects" className="section-padding">
@@ -5,7 +7,7 @@ export default function Projects() {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         
         <div className="bg-slate-800 rounded-xl shadow-lg overflow-hidden flex flex-col">
-          <img src="https://placehold.co/600x400/15803d/ffffff?text=EvoTracker+App" alt="EvoTracker" className="w-full h-48 object-cover" />
+          <Image src="https://placehold.co/600x400/15803d/ffffff?text=EvoTracker+App" alt="EvoTracker" className="w-full h-48 object-cover" />
           <div className="p-6 flex flex-col flex-grow">
             <h3 className="text-2xl font-bold text-indigo-300 mb-3">EvoTracker</h3>
             <p className="text-slate-400 mb-4 flex-grow">
