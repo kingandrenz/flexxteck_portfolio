@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about" className="section-padding">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-indigo-400">
-        About Anthony
+        About Anthony (flexteck)
       </h2>
       <div className="max-w-4xl mx-auto bg-slate-800 p-8 rounded-2xl shadow-xl border border-slate-700">
         <p className="text-lg text-slate-300 mb-4">

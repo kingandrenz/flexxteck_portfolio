@@ -1,24 +1,46 @@
-import Image from "next/image";
+import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
     <section id="projects" className="section-padding">
-      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-indigo-400">Featured Projects</h2>
+      <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-indigo-400">
+        Featured Projects
+      </h2>
+
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        
-        <div className="bg-slate-800 rounded-xl shadow-lg overflow-hidden flex flex-col">
-          <Image src="https://placehold.co/600x400/15803d/ffffff?text=EvoTracker+App" alt="EvoTracker" className="w-full h-48 object-cover" />
-          <div className="p-6 flex flex-col flex-grow">
-            <h3 className="text-2xl font-bold text-indigo-300 mb-3">EvoTracker</h3>
-            <p className="text-slate-400 mb-4 flex-grow">
-              Fitness and nutrition tracker with authentication and D3.js visualizations.
-            </p>
-            <div className="mt-auto flex gap-3">
-              <a href="#" className="flex-1 text-center bg-indigo-500 hover:bg-indigo-600 text-white py-2 rounded-lg">Live Demo</a>
-              <a href="#" className="flex-1 text-center bg-slate-600 hover:bg-slate-500 text-white py-2 rounded-lg">GitHub</a>
-            </div>
-          </div>
-        </div>
+        <ProjectCard
+          title="CartOut"
+          description="A shopping cart Frontend designed with React, Redux, and Tailwind CSS. Features include product listing, load more button, and responsive design."
+          image="/project/cartout.png"
+          demoLink="https://cartout.netlify.app/"
+          githubLink="https://github.com/flexteck/mycart"
+        />
+
+        {/* Add more cards easily */}
+        <ProjectCard
+          title="Portfolio Website"
+          description="A personal portfolio built with Next.js, Tailwind CSS, and Framer Motion for smooth animations."
+          image="/project/port-img.png"
+          demoLink="https://flexxteck-portfolio.vercel.app/"
+          githubLink="https://github.com/flexteck/portfolio"
+        />
+
+        <ProjectCard
+        title="Robot Friend App"
+        description="A fun app built with React and Tachyons. Includes a search functionality that filters robots by name based on the entered letter."
+        image="/project/robotfriends.png"
+        demoLink="https://kingandrenz.github.io/flexteck_react_practical/"
+        githubLink="https://github.com/kingandrenz/flexteck_react_practical/tree/main/robotfriends"
+        />
+
+        <ProjectCard
+        title="🍽️ Forkify Recipe App"
+        description="The Forkify Recipe App is a modern React-based recipe finder that allows users to search, view, and favorite recipes. It utilizes the Forkify API to fetch real recipe data and demonstrates the use of React Context API for global state management."
+        image="/project/food-recipe.png"
+        demoLink="https://recipe-app-sigma-pied-22.vercel.app/"
+        githubLink="https://github.com/kingandrenz/RECIPE-APP"
+        />
+
 
       </div>
     </section>

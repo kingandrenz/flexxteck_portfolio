@@ -16,7 +16,7 @@ export default function Hero() {
           className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-indigo-500 shadow-2xl object-cover"
         />
         <h1 className="text-4xl sm:text-6xl font-extrabold text-white mb-4">
-          Hi, I&apos;m <span className="text-indigo-400">Anthony Chibueze</span>
+          Hi, I&apos;m <span className="text-indigo-400">Anthony Kanu</span>
         </h1>
         <p className="text-xl sm:text-3xl text-slate-300 mb-8 font-light">
           A Passionate{" "}
