@@ -16,14 +16,14 @@ export default function Projects() {
           githubLink="https://github.com/flexteck/mycart"
         />
 
-        {/* Add more cards easily */}
-        <ProjectCard
-          title="Portfolio Website"
-          description="A personal portfolio built with Next.js, Tailwind CSS, and Framer Motion for smooth animations."
-          image="/project/port-img.png"
-          demoLink="https://flexxteck-portfolio.vercel.app/"
-          githubLink="https://github.com/flexteck/portfolio"
+       <ProjectCard
+        title="Interactive Dashboard"
+        description="A modern interactive dashboard built with Next.js and Tailwind CSS, featuring a clean UI and user-friendly design for managing data and visualizations."
+        image="/project/dashboard.png"
+        demoLink="https://interactive-dashboard-orcin.vercel.app/"
+        githubLink="https://github.com/kingandrenz/dashboard-app"
         />
+
 
         <ProjectCard
         title="Robot Friend App"
